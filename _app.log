@@ -1,0 +1,38 @@
+2022-09-10 13:56:08,796:INFO:---program startup---
+2022-09-10 13:56:08,796:INFO:screen: Choose an option
+2022-09-10 13:56:15,568:INFO:input f, That's not a valid option!
+2022-09-10 13:56:20,321:INFO:input 6, out of range!
+2022-09-10 13:56:24,074:INFO:input 2, screen: get text from stack, message: the stack is empty! return to main screen
+2022-09-10 13:56:24,074:INFO:screen: Choose an option
+2022-09-10 13:56:27,778:INFO:input 1, screen: save a text
+2022-09-10 13:56:33,179:INFO:input hola!!!, pushed to stack!
+2022-09-10 13:56:33,179:INFO:screen: Choose an option
+2022-09-10 13:56:36,195:INFO:input 3, screen: get the longest text, message: hola!!!
+2022-09-10 13:56:36,196:INFO:screen: Choose an option
+2022-09-10 13:56:37,788:INFO:input 4, screen: get the shortest text, message: hola!!!
+2022-09-10 13:56:37,788:INFO:screen: Choose an option
+2022-09-10 13:56:39,660:INFO:input 1, screen: save a text
+2022-09-10 13:56:43,604:INFO:input chao, pushed to stack!
+2022-09-10 13:56:43,605:INFO:screen: Choose an option
+2022-09-10 13:56:48,573:INFO:input 3, screen: get the longest text, message: hola!!!
+2022-09-10 13:56:48,574:INFO:screen: Choose an option
+2022-09-10 13:56:49,869:INFO:input 4, screen: get the shortest text, message: chao
+2022-09-10 13:56:49,870:INFO:screen: Choose an option
+2022-09-10 13:56:54,550:INFO:input 2, screen: get text from stack
+2022-09-10 13:56:57,055:INFO:input 2, chao
+2022-09-10 13:56:57,055:INFO:screen: Choose an option
+2022-09-10 13:57:07,431:INFO:input 1, screen: save a text
+2022-09-10 13:57:15,440:INFO:input texto de prueba, pushed to stack!
+2022-09-10 13:57:15,441:INFO:screen: Choose an option
+2022-09-10 13:57:18,305:INFO:input 5, screen: compare size of two texts
+2022-09-10 13:57:18,306:INFO:waiting for input 1!
+2022-09-10 13:57:20,001:INFO:waiting for input 2!
+2022-09-10 13:57:21,132:INFO:input1 2, input2 3, ---the text in position 3 is the longest---
+2022-09-10 13:57:21,132:INFO:screen: Choose an option
+2022-09-10 13:57:32,763:INFO:input 2, screen: get text from stack
+2022-09-10 13:57:34,219:INFO:input h, invalid position!
+2022-09-10 13:57:37,499:INFO:input 4, out of range!
+2022-09-10 13:57:38,700:INFO:input 3, texto de prueba
+2022-09-10 13:57:38,700:INFO:screen: Choose an option
+2022-09-10 13:57:43,565:INFO:input 0
+2022-09-10 13:57:43,565:INFO:------END------
