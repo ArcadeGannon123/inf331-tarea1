@@ -13,14 +13,24 @@ class Stack:
     def pop(self):
         return self.__data.pop()
     
+    def stack_status(self):
+        print("---stack status---")        
+        for i in range(len(self.__data)):
+            print("{}.- {}".format(i+1,self.__data[i]))
+        print("------------------")
+
     def stack_size(self):
         return len(self.__data)
     
     def longest(self):        
-        return max(self.__data, key=len)            
+        maxlen = len(max(self.__data, key=len)) 
+        maxlist = [text for text in self.__data if len(text) == maxlen]
+        return  maxlist       
         
     def shortest(self):
-        return min(self.__data, key=len)
+        mainlen = len(min(self.__data, key=len)) 
+        minlist = [text for text in self.__data if len(text) == mainlen]
+        return minlist
     
     def get_text(self,index):
         return self.__data[index]                  
@@ -72,9 +82,10 @@ def Main():
         print("3.- get the longest text")
         print("4.- get the shortest text")
         print("5.- compare size of two texts")
+        print("6.- view stack status")
         print("0.- exit")
         
-        _input = int_input(0,5,"That's not a valid option!")
+        _input = int_input(0,6,"That's not a valid option!")
         _stack_size = stack.stack_size()     
         print("")                   
 
@@ -111,9 +122,11 @@ def Main():
         elif _input == 3:
             
             if _stack_size != 0:
-                logging.info('input 3, screen: get the longest text, message: {}'.format(stack.longest()))
-                print("---the longest text in the stack---")
-                print( stack.longest() )                
+                maxlist = stack.longest()
+                logging.info('input 3, screen: get the longest text, message: {}'.format(maxlist))
+                print("---the longest text/s in the stack---")                
+                for text in maxlist:
+                    print("-> {}".format(text))             
             else:
                 logging.info('input 3, screen: get the longest text, message: the stack is empty! return to main screen')
                 print("the stack is empty!")
@@ -122,9 +135,11 @@ def Main():
         elif _input == 4:
             
             if _stack_size != 0:
-                logging.info('input 4, screen: get the shortest text, message: {}'.format(stack.shortest()))
-                print("---the shortest text in the stack---")
-                print( stack.shortest() )
+                minlist = stack.shortest()
+                logging.info('input 4, screen: get the shortest text, message: {}'.format(minlist))
+                print("---the shortest text/s in the stack---")                
+                for text in minlist:
+                    print("-> {}".format(text))   
             else:
                 logging.info('input 4, screen: get the shortest text, message: the stack is empty! return to main screen')
                 print("the stack is empty!")                
@@ -182,7 +197,9 @@ def Main():
                 logging.info('input 5, screen: compare size of two texts, message: the stack is empty! return to main screen')
                 print("the stack is empty!")   
             print("")
-
+        elif _input == 6:
+            logging.info('input 6, showing stack!')
+            stack.stack_status()
         else:
             logging.info('input 0')
             break

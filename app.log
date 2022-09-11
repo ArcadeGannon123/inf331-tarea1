@@ -1,0 +1,58 @@
+2022-09-10 17:00:43,475:INFO:---program startup---
+2022-09-10 17:00:43,475:INFO:screen: Choose an option
+2022-09-10 17:00:48,853:INFO:input 6, out of range!
+2022-09-10 17:01:02,743:INFO:input ctrl+c, KeyboardInterruption!
+2022-09-10 17:01:02,743:INFO:input 0
+2022-09-10 17:01:02,744:INFO:------END------
+2022-09-10 17:01:03,724:INFO:---program startup---
+2022-09-10 17:01:03,724:INFO:screen: Choose an option
+2022-09-10 17:01:05,575:INFO:input 6, showing stack!
+2022-09-10 17:01:05,575:INFO:screen: Choose an option
+2022-09-10 17:01:08,095:INFO:input 1, screen: save a text
+2022-09-10 17:01:09,271:INFO:input sdfsd, pushed to stack!
+2022-09-10 17:01:09,271:INFO:screen: Choose an option
+2022-09-10 17:01:10,008:INFO:input 1, screen: save a text
+2022-09-10 17:01:11,399:INFO:input dsfe45234, pushed to stack!
+2022-09-10 17:01:11,400:INFO:screen: Choose an option
+2022-09-10 17:01:13,824:INFO:input 6, showing stack!
+2022-09-10 17:01:13,825:INFO:screen: Choose an option
+2022-09-10 17:02:12,264:INFO:input 1, screen: save a text
+2022-09-10 17:02:25,009:INFO:input holaaaaaaaaaa, pushed to stack!
+2022-09-10 17:02:25,010:INFO:screen: Choose an option
+2022-09-10 17:02:27,186:INFO:input 1, screen: save a text
+2022-09-10 17:02:32,490:INFO:input chaoooooooooo, pushed to stack!
+2022-09-10 17:02:32,491:INFO:screen: Choose an option
+2022-09-10 17:02:35,548:INFO:input 3, screen: get the longest text, message: None
+2022-09-10 17:02:35,549:INFO:screen: Choose an option
+2022-09-10 17:03:36,892:INFO:input ctrl+c, KeyboardInterruption!
+2022-09-10 17:03:36,893:INFO:input 0
+2022-09-10 17:03:36,893:INFO:------END------
+2022-09-10 17:08:58,034:INFO:---program startup---
+2022-09-10 17:08:58,034:INFO:screen: Choose an option
+2022-09-10 17:08:59,567:INFO:input 1, screen: save a text
+2022-09-10 17:09:00,999:INFO:input hola, pushed to stack!
+2022-09-10 17:09:01,000:INFO:screen: Choose an option
+2022-09-10 17:09:01,999:INFO:input 1, screen: save a text
+2022-09-10 17:09:03,312:INFO:input chao, pushed to stack!
+2022-09-10 17:09:03,312:INFO:screen: Choose an option
+2022-09-10 17:09:04,968:INFO:input 6, showing stack!
+2022-09-10 17:09:04,969:INFO:screen: Choose an option
+2022-09-10 17:09:11,353:INFO:input 3, screen: get the longest text, message: ['hola', 'chao']
+2022-09-10 17:09:11,354:INFO:screen: Choose an option
+2022-09-10 17:09:14,818:INFO:input 4, screen: get the shortest text, message: ['hola', 'chao']
+2022-09-10 17:09:14,819:INFO:screen: Choose an option
+2022-09-10 17:09:21,851:INFO:input 1, screen: save a text
+2022-09-10 17:09:26,067:INFO:input holaa, pushed to stack!
+2022-09-10 17:09:26,067:INFO:screen: Choose an option
+2022-09-10 17:09:28,899:INFO:input 1, screen: save a text
+2022-09-10 17:09:30,403:INFO:input chaoo, pushed to stack!
+2022-09-10 17:09:30,404:INFO:screen: Choose an option
+2022-09-10 17:09:32,555:INFO:input 6, showing stack!
+2022-09-10 17:09:32,557:INFO:screen: Choose an option
+2022-09-10 17:09:36,901:INFO:input 3, screen: get the longest text, message: ['holaa', 'chaoo']
+2022-09-10 17:09:36,902:INFO:screen: Choose an option
+2022-09-10 17:09:39,940:INFO:input 4, screen: get the shortest text, message: ['hola', 'chao']
+2022-09-10 17:09:39,941:INFO:screen: Choose an option
+2022-09-10 17:10:09,713:INFO:input ctrl+c, KeyboardInterruption!
+2022-09-10 17:10:09,714:INFO:input 0
+2022-09-10 17:10:09,714:INFO:------END------
