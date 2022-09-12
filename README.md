@@ -1,6 +1,7 @@
 # INF-331 TAREA 1
 #### Name: Javier Vargas
 
+## Description
 This is a python program that performs simple tasks on a stack.
 - Store text in a stack
 - See any text stored in the stack
